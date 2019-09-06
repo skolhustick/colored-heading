@@ -13,17 +13,27 @@ npm install --save colored-heading
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React, { Component } from "react";
+import ColoredHeadingOne, { ColoredHeadingTwo } from "colored-heading";
 
-import MyComponent from 'colored-heading'
-
-class Example extends Component {
-  render () {
+export default class App extends Component {
+  render() {
     return (
-      <MyComponent />
-    )
+      <div>
+        <ColoredHeadingOne
+          text="Colored heading one is working"
+          color={"red"}
+        />
+
+        <ColoredHeadingTwo
+          text="Colored heading two is working"
+          color={"blue"}
+        />
+      </div>
+    );
   }
 }
+
 ```
 
 ## License
