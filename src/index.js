@@ -15,7 +15,7 @@ export class ColoredHeadingTwo extends Component {
   }
 }
 
-export default class ColoredHeadingOne extends Component {
+export class ColoredHeadingOne extends Component {
   static propTypes = {
     text: PropTypes.string,
     color: PropTypes.string
@@ -27,3 +27,5 @@ export default class ColoredHeadingOne extends Component {
     return <h1 style={{ color }}>{text}</h1>;
   }
 }
+
+

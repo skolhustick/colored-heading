@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 
-// The default export doesn't need to be inside {}
-// Any other non-default exports, we import inside {}
-import ColoredHeadingOne, { ColoredHeadingTwo } from "colored-heading";
+import { ColoredHeadingOne, ColoredHeadingTwo } from "colored-heading";
 
 export default class App extends Component {
   render() {
@@ -22,3 +20,5 @@ export default class App extends Component {
     );
   }
 }
+
+
